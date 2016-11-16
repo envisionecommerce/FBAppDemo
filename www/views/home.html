@@ -1,0 +1,15 @@
+<ion-view class="home-view">
+  <ion-nav-title>
+    <span>Home</span>
+  </ion-nav-title>
+  <ion-content>
+    <div class="row">
+      <div class="col text-center">
+      	<img ng-src="{{user.picture}}" class="user-image">        
+        <p class="welcome-message text-light">Welcome to joining us!</p> 
+        <h3 class="welcome-message">Hi {{user.name}}</h3>       
+        <a class="button button-assertive button-block button-outline" ng-click="showLogOutMenu()"> Log Out </a>
+      </div>
+    </div>
+  </ion-content>
+</ion-view>
